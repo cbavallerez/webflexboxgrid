@@ -126,11 +126,22 @@ text-align:center;
 .llamanos {
   position: fixed;
   background-color: #0034FF;
-  height: 200px;
-  width: 50px;
+  height: 130px;
+  width: 60px;
   top: 450px;
-  padding-left: 20px;
 
+
+}
+.llamanos i{
+  font-size: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+height: 35px;
+width: 40px;
+text-align: center;
+padding-top: 5px;
 }
 .llamanos:hover
 {
@@ -138,6 +149,12 @@ text-align:center;
 -ms-transform: scale(1.1);
 transform: scale(1.1);
 transition:all 0.3s ease;
+}
+.llamanos i:hover{
+ background: hsla(0, 0%, 18%, 0.86); ;
+  -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .shadow{
@@ -210,6 +227,7 @@ box-shadow:         0px 7px 22px -3px rgba(44, 50, 50, 0.75);
   padding-top: 250px;
   color: white;
   font-size: 40px;
+  text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 
