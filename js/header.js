@@ -25,8 +25,6 @@ $(document).ready(function(){
 			$('nav li').removeClass('li2');
 
 
-			$('.headersection').removeClass('headersection2');
-			$('.subtitulo').show();
 
 
 

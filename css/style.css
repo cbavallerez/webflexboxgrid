@@ -34,9 +34,14 @@ padding: 0;
 background-color: rgb(18, 18, 18);
 
 }
+nav{
+  transition: all 0.4s;
+
+}
 nav ol{
   margin: 0px;
   padding: 0px;
+  transition: all 0.4s;
 
 }
 nav  li{
@@ -50,7 +55,7 @@ nav  li{
   padding: 10px;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
-  transition: max-height 0.4s;
+  transition: all 0.4s;
 
 }
 nav li:hover{
@@ -61,11 +66,12 @@ nav li:hover{
   margin-top: 0;
   height: 30px;
 }
-.logo{
-  background-image: url("img/logo.png");
-  max-height: 99%;
-  transition:all 0.4s ease;
-  margin-top: 100px;
+
+
+.logo img{
+  width: auto;
+   height: 100%;
+   transition: all 0.4s;
 
 }
 hr {
