@@ -15,6 +15,18 @@ p{
   color: white;
   font-size: 48px;
 }
+a {
+  color: white;
+  text-decoration: none}
+a:visited{
+  color: white;
+  text-decoration: none;
+
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
 nav{
   position: fixed;
 height: 150px;
